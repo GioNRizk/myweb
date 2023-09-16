@@ -1,0 +1,32 @@
+.box {
+    border: 2px solid rgb(0, 55, 128);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s linear;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+
+    justify-content:center;
+    justify-content: space-around;
+}
+
+header{
+    background-color: #0653ab;
+    height: 3cm;
+    width: 100%;
+}
+
+.footer1 {
+    width: 100%;
+    background-color: #0653ab;
+    color: white;
+    text-align: center;
+    height: 3cm;
+   
+  }
