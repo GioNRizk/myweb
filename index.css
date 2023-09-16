@@ -30,3 +30,52 @@ header{
     height: 3cm;
    
   }
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (typical phones) */
+
+  .navbar {
+    height: auto;
+    overflow: visible;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .navbar a {
+    float: none;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .navmini {
+    float: none;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .navmini a {
+    float: none;
+    display: block;
+    margin: 10px auto;
+  }
+
+  #container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer1 {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .photos, .photosta {
+    margin: 0 auto;
+  }
+}
